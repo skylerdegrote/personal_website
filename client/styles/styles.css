@@ -1,6 +1,17 @@
 /**
  * Created by Skyler DeGrote on 8/17/15.
  */
-body{
+body {
     background-color: #0086b3;
+    min-height:300px;
+    margin: 0;
+}
+header, footer {
+    background-color: #006600;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.mainSection{
+    min-height: 400px;
 }

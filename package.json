@@ -4,7 +4,8 @@
   "description": "personal website to hold and show all of my projects I've done while at Prime",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
   "author": "Skyler DeGrote",
   "license": "ISC",

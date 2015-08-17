@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="personalWebsiteApp">
 <head>
     <meta charset="UTF-8">
-    <title>Personal Prime Portfolio Website</title>
+    <title>Angular lecture on August 17</title>
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/styles/styles.css">
 </head>
 <body>
-    <header>
-        <ul>
-            <li>
-                <a href="#home">HOME</a>
-            </li>
-            <li>
-                <a href="#about">ABOUT</a>
-            </li>
-            <li>
-                <a href="#projects">PROJECTS</a>
-            </li>
-        </ul>
-    </header>
+<header>
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+    </ul>
+</header>
+<div class ="mainSection">
 
 
 
 
 
-    <footer></footer>
-    <!--SCRIPTS-->
-    <script type="text/javascript" src="/vendors/angular/angular.min.js"></script>
-    <script type="text/javascript" src="/vendors/angular-route/angular-route.min.js"></script>
-    <script type="text/javascript" src="assets/scripts/app.min.js"></script>
-    <script type="text/javascript" src="assets/scripts/controllers/controller.min.js"></script>
-    <!--END SCRIPTS-->
+
+
+<div>
+    <main ng-view></main>
+</div>
+</div><!--end mainSection class-->
+<footer>
+    <P>BOO YA FOOTER</P>
+</footer>
+
+<!--SCRIPTS-->
+<script type="text/javascript" src="/vendors/angular/angular.min.js"></script>
+<script type="text/javascript" src="/vendors/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+<script type="text/javascript" src="/assets/scripts/controllers/controller.min.js"></script>
 </body>
 </html>
