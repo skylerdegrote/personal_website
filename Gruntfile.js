@@ -50,12 +50,30 @@ module.exports = function(grunt) {
                 ],
                 dest: "server/public/vendors/"
             },
+            angularMaterial: {
+                expand: true,
+                cwd: "node_modules",
+                src: [
+                    "angular-animate/angular-animate.min.js",
+                    "angular-aria/angular-aria.min.js",
+                    "angular-material/angular-material.min.js"
+                ],
+                dest: "server/public/vendors/"
+            },
             angularRoute: {
                 expand: true,
                 cwd: "node_modules",
                 src: [
                     "angular-route/angular-route.min.js",
                     "angular-route/angular-route.min.js.map"
+                ],
+                dest: "server/public/vendors/"
+            },
+            bootstrap: {
+                expand: true,
+                cwd: "node_modules",
+                src: [
+                    "bootstrap/dist/css/bootstrap.min.css"
                 ],
                 dest: "server/public/vendors/"
             }
