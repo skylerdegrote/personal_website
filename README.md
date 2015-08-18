@@ -1,5 +1,7 @@
 # personal portfolio website
-This website is going to showcase my projects that I've completed while at Prime Digital Academy
+This website is going to showcase my projects that I've completed while at Prime Digital Academy.
+My plan is to include a quote of the day that is randomly generated and shown on the home page, have hover states for
+the project images on the home page. The images link to the specific project part on the project page from the home page.
 
 ## The assignment
 Its time to start building your personal site!
