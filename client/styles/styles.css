@@ -1,12 +1,179 @@
 
-body {
-    /*min-height:200px;*/
-    margin: 0;
-    background-image: url("/assets/styles/images/moontree2-saturation.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
+/*/!*/!*blockquote {*!/!*/*/
+    /*/!*/!*border: none;*!/!*/*/
+    /*/!*/!*margin: 40px;*!/!*/*/
+    /*/!*/!*color: black;*!/!*/*/
+    /*/!*/!*display: inline-block;*!/!*/*/
+    /*/!*/!*position: relative;*!/!*/*/
+/*/!*/!*}*!/!*/*/
+
+/*/!*.quotebox {*!/*/
+    /*/!*margin-top: 40px;*!/*/
+    /*/!*width: 100%;*!/*/
+    /*/!*background-color: black;*!/*/
+    /*/!*opacity: 0.7;*!/*/
+    /*/!*border-radius: 25px;*!/*/
+/*/!*}*!/*/
+
+
+/*/!*/!*.twitter img {*!/!*/*/
+    /*/!*/!*height: 120px;*!/!*/*/
+    /*/!*/!*margin-top:40px;*!/!*/*/
+/*/!*/!*}*!/!*/*/
+/*/!*/!*.linkedin img {*!/!*/*/
+    /*/!*/!*height: 120px;*!/!*/*/
+    /*/!*/!*margin-top:40px;*!/!*/*/
+/*/!*/!*}*!/!*/*/
+
+/*/!*/!*.github img {*!/!*/*/
+    /*/!*/!*height: 120px;*!/!*/*/
+    /*/!*/!*margin-top:40px;*!/!*/*/
+/*/!*/!*}*!/!*/*/
+
+
+
+
+/*/!*/!*.resumeProject img, .carouselProject img {*!/!*/*/
+    /*/!*/!*display: inline-block;*!/!*/*/
+    /*/!*/!*clear:both;*!/!*/*/
+    /*/!*/!*height: 200px;*!/!*/*/
+    /*/!*/!*margin-right: 70px;*!/!*/*/
+    /*/!*/!*margin-left:20px;*!/!*/*/
+/*/!*/!*}*!/!*/*/
+
+
+
+
+/*body {*/
+    /*margin: 0;*/
+    /*background-image: url("/assets/styles/images/moontree2-saturation.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+
+/*header, footer {*/
+    /*background-color: black;*/
+    /*height: 100px;*/
+    /*margin: 0;*/
+    /*color: #fdfdfd;*/
+    /*padding-top: 40px;*/
+/*}*/
+
+/*header a, footer a {*/
+    /*color: #fdfdfd;*/
+/*}*/
+
+/*header li {*/
+    /*display: inline;*/
+    /*list-style: none;*/
+    /*margin:30px;*/
+    /*text-align: center;*/
+/*}*/
+
+/*footer {*/
+    /*text-align: center;*/
+/*}*/
+
+/*ul {*/
+    /*display: inline;*/
+/*}*/
+
+
+/*h1 {*/
+    /*text-align: center;*/
+    /*font-size: 30px;*/
+    /*color: #ffffff;*/
+    /*padding:20px;*/
+/*}*/
+
+/*blockquote {*/
+    /*color: #fdfdfd;*/
+    /*font-size: 20px;*/
+    /*text-decoration: none;*/
+    /*border:none;*/
+/*}*/
+
+/*/!*on index.html*!/*/
+/*.mainSection {*/
+    /*min-height: 700px;*/
+/*}*/
+
+/*/!*on home.html*!/*/
+
+/*.resumeOverview {*/
+
+/*}*/
+
+/*.carouselOverview {*/
+
+/*}*/
+
+/*.fruitOverview {*/
+
+/*}*/
+
+/*.quotebox {*/
+    /*/!*margin-top: 40px;*!/*/
+    /*/!*width: 100%;*!/*/
+    /*/!*background-color: rgba(0,0,0,.7);*!/*/
+    /*/!*border-radius: 25px;*!/*/
+/*}*/
+
+/*/!*on about.html*!/*/
+/*.twitter, .linkedin, .github, .websitePortfolio {*/
+    /*width: 100px;*/
+    /*background-color: rgba(0,0,0,.7);*/
+    /*border-radius: 25px;*/
+    /*min-height: 100px;*/
+    /*margin:20px;*/
+/*}*/
+
+/*.twitter {*/
+
+/*}*/
+
+/*.linkedin {*/
+
+/*}*/
+
+/*.github {*/
+
+/*}*/
+
+/*.websitePortfolio {*/
+
+/*}*/
+
+
+/*/!*on projects.html*!/*/
+/*#resumeProject, #carouselProject, #fruitProject {*/
+    /*width: 200px;*/
+    /*background-color: rgba(0,0,0,.7);*/
+    /*border-radius: 25px;*/
+    /*min-height: 600px;*/
+    /*margin:20px;*/
+/*}*/
+
+/*#resumeProject {*/
+
+/*}*/
+
+/*#carouselProject {*/
+
+/*}*/
+
+/*#fruitProject {*/
+
+/*}*/
+
+
+ body {
+ margin: 0;
+   background-image: url("/assets/styles/images/moontree2-saturation.jpg");
+   background-repeat: no-repeat;
+background-size: cover;
+  }
 header, footer {
     background-color: black;
     height: 100px;
@@ -33,18 +200,19 @@ footer {
 ul{
     display: inline;
 }
-.mainSection {
-    min-height: 700px;
-}
 
 blockquote {
     border: none;
     margin: 40px;
-    color: black;
+    color: white;
     display: inline-block;
     position: relative;
 }
-
+/*on index.html*/
+.mainSection {
+    min-height: 700px;
+}
+/*on home.html*/
 .quotebox {
     margin-top: 40px;
     width: 100%;
@@ -52,15 +220,18 @@ blockquote {
     opacity: 0.7;
     border-radius: 25px;
 }
-blockquote {
-    color: white;
-    font-size: 20px;
-}
 
 .twitter img{
-    height: 120px;
+    height: 110px;
     margin-top:40px;
+    overflow: hidden;
+}
 
+.twitter img:hover{
+    height: 110px;
+    margin-top:40px;
+    background-position: 0 -110px;
+    overflow: hidden;
 }
 .linkedin img{
     height: 120px;
@@ -74,11 +245,11 @@ blockquote {
 
 .resume, .carousel, .fruit{
     margin-top: 40px;
-    width: 100%;
-    background-color: black;
-    opacity: 0.7;
-    border-radius: 25px;    height: 300px;
-    color:white;
+    /*width: 100%;*/
+    background-color: rgba(0,0,0,.7);
+    border-radius: 25px;
+    height: 300px;
+    color:#fdfdfd;
 }
 .resume img, .carousel img, .fruit img{
     margin-left: 75px;
@@ -98,11 +269,12 @@ h1 {
 }
 
 #resumeProject, #carouselProject, #fruitProject {
-    min-height: 400px;
+    /*min-height: 400px;*/
     width: 100%;
     background-color: black;
     opacity: 0.7;
     border-radius: 25px;
     height: 300px;
-    color:white;    margin: 30px;
+    color:white;
+    margin: 30px;
 }
