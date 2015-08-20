@@ -1,13 +1,6 @@
 
 
-/*/!*/!*blockquote {*!/!*/*/
-    /*/!*/!*border: none;*!/!*/*/
-    /*/!*/!*margin: 40px;*!/!*/*/
-    /*/!*/!*color: black;*!/!*/*/
-    /*/!*/!*display: inline-block;*!/!*/*/
-    /*/!*/!*position: relative;*!/!*/*/
-/*/!*/!*}*!/!*/*/
-
+/*/!!*blockquote {*!/!*    /!!*border: none;*!/!*    /!!*margin: 40px;*!/!*    /!!*color: black;*!/!*    /!!*display: inline-block;*!/!*    /!!*position: relative;*!/!*!/!!*}*!/!**/
 /*/!*.quotebox {*!/*/
     /*/!*margin-top: 40px;*!/*/
     /*/!*width: 100%;*!/*/
@@ -17,31 +10,12 @@
 /*/!*}*!/*/
 
 
-/*/!*/!*.twitter img {*!/!*/*/
-    /*/!*/!*height: 120px;*!/!*/*/
-    /*/!*/!*margin-top:40px;*!/!*/*/
-/*/!*/!*}*!/!*/*/
-/*/!*/!*.linkedin img {*!/!*/*/
-    /*/!*/!*height: 120px;*!/!*/*/
-    /*/!*/!*margin-top:40px;*!/!*/*/
-/*/!*/!*}*!/!*/*/
-
-/*/!*/!*.github img {*!/!*/*/
-    /*/!*/!*height: 120px;*!/!*/*/
-    /*/!*/!*margin-top:40px;*!/!*/*/
-/*/!*/!*}*!/!*/*/
+/*/!!*.twitter img {*!/!*    /!!*height: 120px;*!/!*    /!!*margin-top:40px;*!/!*!/!!*}*!/!*!/!!*.linkedin img {*!/!*    /!!*height: 120px;*!/!*    /!!*margin-top:40px;*!/!*!/!!*}*!/!**/
+/*/!!*.github img {*!/!*    /!!*height: 120px;*!/!*    /!!*margin-top:40px;*!/!*!/!!*}*!/!**/
 
 
 
-
-/*/!*/!*.resumeProject img, .carouselProject img {*!/!*/*/
-    /*/!*/!*display: inline-block;*!/!*/*/
-    /*/!*/!*clear:both;*!/!*/*/
-    /*/!*/!*height: 200px;*!/!*/*/
-    /*/!*/!*margin-right: 70px;*!/!*/*/
-    /*/!*/!*margin-left:20px;*!/!*/*/
-/*/!*/!*}*!/!*/*/
-
+/*/!!*.resumeProject img, .carouselProject img {*!/!*    /!!*display: inline-block;*!/!*    /!!*clear:both;*!/!*    /!!*height: 200px;*!/!*    /!!*margin-right: 70px;*!/!*    /!!*margin-left:20px;*!/!*!/!!*}*!/!**/
 
 
 
@@ -166,7 +140,7 @@
 /*#fruitProject {*/
 
 /*}*/
-
+/*///////*/
 
  body {
  margin: 0;
