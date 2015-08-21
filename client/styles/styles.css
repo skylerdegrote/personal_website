@@ -190,22 +190,23 @@ blockquote {
 .quotebox {
     margin-top: 40px;
     width: 100%;
-    background-color: black;
-    opacity: 0.7;
+    background-color: rgba(0,0,0,.7);
     border-radius: 25px;
+    min-height:200px;
+    color: #fdfdfd;
+    text-align: left;
+    padding-top:20px;
+    padding-left:20px;
 }
 
 .twitter img{
     height: 110px;
     margin-top:40px;
-    overflow: hidden;
 }
 
 .twitter img:hover{
     height: 110px;
     margin-top:40px;
-    background-position: 0 -110px;
-    overflow: hidden;
 }
 .linkedin img{
     height: 120px;
@@ -242,13 +243,12 @@ h1 {
     padding:20px;
 }
 
-#resumeProject, #carouselProject, #fruitProject {
-    /*min-height: 400px;*/
-    width: 100%;
-    background-color: black;
-    opacity: 0.7;
-    border-radius: 25px;
-    height: 300px;
-    color:white;
-    margin: 30px;
-}
+/*#resumeProject, #carouselProject, #fruitProject {*/
+    /*/!*min-height: 400px;*!/*/
+    /*/!*width: 100%;*!/*/
+    /*background-color: rgba(0,0,0,.7);*/
+    /*border-radius: 25px;*/
+    /*height: 300px;*/
+    /*color:white;*/
+    /*margin: 30px;*/
+/*}*/
